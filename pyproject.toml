@@ -1,0 +1,13 @@
+[tool.streamlit]
+  version = "1.8.0"
+  scripts = ["app.py"]
+  max_cached_message_age = 50
+  gather_usage_stats = false  # Set to true if you want to share usage statistics
+
+[theme]
+  base = "light"  # Set to "dark" for a dark theme
+  primaryColor = "#3498db"  # Set the primary color
+  backgroundColor = "#f8f9fa"  # Set the background color
+  secondaryBackgroundColor = "#ffffff"  # Set the secondary background color
+  textColor = "#000000"  # Set the primary text color
+  font = "sans serif"
