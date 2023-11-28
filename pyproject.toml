@@ -11,3 +11,13 @@
   secondaryBackgroundColor = "#ffffff"  # Set the secondary background color
   textColor = "#000000"  # Set the primary text color
   font = "sans serif"
+
+[tool.poetry]
+name = "movie recommendation system"
+version = "0.1.0"
+description = "Your project description"
+authors = ["Your Name <your.email@example.com>"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
